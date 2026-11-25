@@ -2,8 +2,8 @@
 # Copy into EC2 Launch Template after replacing the three settings below.
 set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
-REGION='ap-southeast-1'
-REPO_URL='https://github.com/REPLACE_OWNER/so-thu-chi-aws.git'
+REGION='us-east-1'
+REPO_URL='https://github.com/MinhKhang/so_thu_chi_aws.git'
 COMMIT_SHA='REPLACE_WITH_FULL_40_CHARACTER_COMMIT_SHA'
 PARAMETER='/lab/so-thu-chi/database'
 APP='/var/www/so-thu-chi'

@@ -4,7 +4,7 @@
     {
       "Effect": "Allow",
       "Action": "ssm:GetParameter",
-      "Resource": "arn:aws:ssm:REGION:ACCOUNT_ID:parameter/lab/so-thu-chi/database"
+      "Resource": "arn:aws:ssm:us-east-1:453661499204:parameter/lab/so-thu-chi/database"
     }
   ]
 }
