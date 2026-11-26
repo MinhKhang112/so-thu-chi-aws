@@ -3,7 +3,7 @@
 set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
 REGION='us-east-1'
-REPO_URL='https://github.com/MinhKhang/so_thu_chi_aws.git'
+REPO_URL='https://github.com/MinhKhang112/so-thu-chi-aws.git'
 COMMIT_SHA='413a62d3d21b6fe5fba69ee4c5846ca63450e353'
 PARAMETER='/lab/so-thu-chi/database'
 APP='/var/www/so-thu-chi'
