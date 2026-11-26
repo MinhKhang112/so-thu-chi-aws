@@ -4,7 +4,7 @@ set -euo pipefail
 export DEBIAN_FRONTEND=noninteractive
 REGION='us-east-1'
 REPO_URL='https://github.com/MinhKhang/so_thu_chi_aws.git'
-COMMIT_SHA='REPLACE_WITH_FULL_40_CHARACTER_COMMIT_SHA'
+COMMIT_SHA='413a62d3d21b6fe5fba69ee4c5846ca63450e353'
 PARAMETER='/lab/so-thu-chi/database'
 APP='/var/www/so-thu-chi'
 [[ "$COMMIT_SHA" =~ ^[0-9a-f]{40}$ ]] || { echo 'Set an exact Git commit SHA'; exit 1; }
